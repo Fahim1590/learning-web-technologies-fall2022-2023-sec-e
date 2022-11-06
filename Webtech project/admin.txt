@@ -1,0 +1,3 @@
+Fahim|123|admin|test@gmail.com|2022-11-01|01690191241|male|apple.jpg
+admin|123|admin|test@gmail.com|2022-11-02|01690191241|male|coca-cola.jfif
+Fahim|654|admin|test@gmail.com|2022-11-02|123456|male|lays.jpg
