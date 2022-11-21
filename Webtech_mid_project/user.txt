@@ -1,0 +1,1 @@
+Rifan|123|customer|test@gmail.com|2022-11-02|123456|male|coca.jfif
