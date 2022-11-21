@@ -1,1 +1,0 @@
-Fahim|123|admin|test@gmail.com|2022-11-03|1236546879|male|apple.jpg
