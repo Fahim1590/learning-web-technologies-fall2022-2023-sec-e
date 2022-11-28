@@ -5,14 +5,14 @@
         <fieldset>
          <style>
            body {
-             background-image: url('Bck.jpg');
+             background-image: url('Pictures/Bck.jpg');
             }
             </style> 
         <div align="left">
-            <img src="AsianMART.png" width="80px" height="60px">
+            <img src="Pictures/AsianMART.png" width="80px" height="60px">
         </div>
 		   <h1 align="center">Registration</h1>
-		    <form action="AdminRegcheck.php" method="post">
+		    <form action="Controller/AdminRegcheck.php" method="post">
                 
                     <!-- <tr>
                         <td></td>

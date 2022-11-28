@@ -24,7 +24,7 @@
             </div>
 
             <div align="left">
-                <img src="AsianMART.png" width="100px" height="90px">
+                <img src="Pictures/AsianMART.png" width="100px" height="90px">
             </div>
 
             <center><h1>Home page</h1></center>
@@ -35,9 +35,9 @@
                     
                     <table border="0" align="center" width="75%">
                         <tr>
-                            <td align="center"><img src="prdctlogo.png" width="200px" height="200px"></td>
-                            <td align="center"><img src="saleslogo.png" width="200px" height="200px"></td>
-                            <td align="center"><img src="seller.png" width="200px" height="200px"></td>
+                            <td align="center"><img src="Pictures/prdctlogo.png" width="200px" height="200px"></td>
+                            <td align="center"><img src="Pictures/saleslogo.png" width="200px" height="200px"></td>
+                            <td align="center"><img src="Pictures/seller.png" width="200px" height="200px"></td>
                         </tr>
                         <tr>
                             <td align="center"><a href="AdminProd.php">Product Details</a></td>

@@ -8,11 +8,11 @@
             }
             </style> 
         <div align="left">
-            <img src="AsianMART.png" width="80px" height="60px">
+            <img src="Pictures/AsianMART.png" width="80px" height="60px">
         </div>
 		   <h1 align="center">Registration</h1>
 		    
-           <form action="AdminFpasscheck.php" method="post">
+           <form action="controller/AdminFpasscheck.php" method="post">
                 
                     
                 <table border="0" align='center'>

@@ -30,11 +30,11 @@
                     <legend><b>Fruits & Vegetables</b></legend>
                     <table align="center">
                         <tr>
-                            <td><img src="Banana.webp" alt="Banana" width="250px" height="150px"></td>
-                            <td><img src="Watermelon.webp" width="250px" height="150px"></td>
-                            <td><img src="guava.webp" width="250px" height="150px"></td>
-                            <td><img src="mango.jpg" width="250px" height="150px"></td>
-                            <td><img src="pineapple.jfif" width="250px" height="150px"></td>
+                            <td><img src="Pictures/Banana.webp" alt="Banana" width="250px" height="150px"></td>
+                            <td><img src="Pictures/Watermelon.webp" width="250px" height="150px"></td>
+                            <td><img src="Pictures/guava.webp" width="250px" height="150px"></td>
+                            <td><img src="Pictures/mango.jpg" width="250px" height="150px"></td>
+                            <td><img src="Pictures/pineapple.jfif" width="250px" height="150px"></td>
                         </tr>
                         <tr>
                             <td align="center">Banana</td>
@@ -45,11 +45,11 @@
                             
                         </tr>
                         <tr>
-                            <td><img src="malta.jpg" alt="Banana" width="250px" height="150px"></td>
-                            <td><img src="grape.jfif" width="250px" height="150px"></td>
-                            <td><img src="apple.jpg" width="250px" height="150px"></td>
-                            <td><img src="orange.jfif" width="250px" height="150px"></td>
-                            <td><img src="pomegranate.webp" width="250px" height="150px"></td>
+                            <td><img src="Pictures/malta.jpg" alt="Banana" width="250px" height="150px"></td>
+                            <td><img src="Pictures/grape.jfif" width="250px" height="150px"></td>
+                            <td><img src="Pictures/apple.jpg" width="250px" height="150px"></td>
+                            <td><img src="Pictures/orange.jfif" width="250px" height="150px"></td>
+                            <td><img src="Pictures/pomegranate.webp" width="250px" height="150px"></td>
                         </tr>
                         <tr>
                             <td align="center">Malta</td>
@@ -65,11 +65,11 @@
                     <legend><b>Beverage</b></legend>
                     <table align="center">
                         <tr>
-                            <td><img src="pepsi.jfif" alt="Banana" width="250px" height="150px"></td>
-                            <td><img src="coca.jfif" width="250px" height="170px"></td>
-                            <td><img src="sprite.png" width="250px" height="170px"></td>
-                            <td><img src="fanta.jfif" width="250px" height="170px"></td>
-                            <td><img src="7up.jpg" width="250px" height="170px"></td>
+                            <td><img src="Pictures/pepsi.jfif" alt="Banana" width="250px" height="150px"></td>
+                            <td><img src="Pictures/coca.jfif" width="250px" height="170px"></td>
+                            <td><img src="Pictures/sprite.png" width="250px" height="170px"></td>
+                            <td><img src="Pictures/fanta.jfif" width="250px" height="170px"></td>
+                            <td><img src="Pictures/7up.jpg" width="250px" height="170px"></td>
                         </tr>
                         <tr>
                             <td align="center">Pepsi</td>
@@ -80,10 +80,10 @@
                             
                         </tr>
                         <tr>
-                            <td><img src="mirinda.png" alt="Banana" width="250px" height="150px"></td>
-                            <td><img src="pepsi-diet.jpeg" width="250px" height="170px"></td>
-                            <td><img src="coca-cola.jfif" width="250px" height="170px"></td>
-                            <td><img src="mountain.webp" width="250px" height="170px"></td>
+                            <td><img src="Pictures/mirinda.png" alt="Banana" width="250px" height="150px"></td>
+                            <td><img src="Pictures/pepsi-diet.jpeg" width="250px" height="170px"></td>
+                            <td><img src="Pictures/coca-cola.jfif" width="250px" height="170px"></td>
+                            <td><img src="Pictures/mountain.webp" width="250px" height="170px"></td>
                         </tr>
                         <tr>
                             <td align="center">Mirinda</td>
@@ -99,9 +99,9 @@
                     <legend><b>Egg & Meat & Fish</b></legend>
                     <table align="center">
                         <tr>
-                            <td><img src="egg.jpg" alt="Banana" width="250px" height="150px"></td>
-                            <td><img src="meat.jpg" width="250px" height="150px"></td>
-                            <td><img src="fish.jfif" width="250px" height="150px"></td>
+                            <td><img src="Pictures/egg.jpg" alt="Banana" width="250px" height="150px"></td>
+                            <td><img src="Pictures/meat.jpg" width="250px" height="150px"></td>
+                            <td><img src="Pictures/fish.jfif" width="250px" height="150px"></td>
                             
                         </tr>
                         <tr>
@@ -117,9 +117,9 @@
                     <legend><b>Ice Cream</b></legend>
                     <table align="center">
                         <tr>
-                            <td><img src="choco.png" alt="Banana" width="250px" height="150px"></td>
-                            <td><img src="vanilla.webp" width="250px" height="150px"></td>
-                            <td><img src="mangoice.webp" width="250px" height="150px"></td>
+                            <td><img src="Pictures/choco.png" alt="Banana" width="250px" height="150px"></td>
+                            <td><img src="Pictures/vanilla.webp" width="250px" height="150px"></td>
+                            <td><img src="Pictures/mangoice.webp" width="250px" height="150px"></td>
                             
                         </tr>
                         <tr>
@@ -135,10 +135,10 @@
                     <legend><b>Snacks</b></legend>
                     <table align="center">
                         <tr>
-                            <td><img src="Bombay.webp" alt="Banana" width="250px" height="150px"></td>
-                            <td><img src="cheese.jfif" width="250px" height="150px"></td>
-                            <td><img src="ring.jfif" width="250px" height="150px"></td>
-                            <td><img src="lays.jpg" width="250px" height="150px"></td>
+                            <td><img src="Pictures/Bombay.webp" alt="Banana" width="250px" height="150px"></td>
+                            <td><img src="Pictures/cheese.jfif" width="250px" height="150px"></td>
+                            <td><img src="Pictures/ring.jfif" width="250px" height="150px"></td>
+                            <td><img src="Pictures/lays.jpg" width="250px" height="150px"></td>
                         </tr>
                         <tr>
                             <td align="center">Potato Chips</td>
@@ -147,10 +147,10 @@
                             <td align="center">Lays</td>
                         </tr>
                         <tr>
-                            <td><img src="Kurkure.webp" alt="Banana" width="250px" height="150px"></td>
-                            <td><img src="alooz.jpeg" width="250px" height="150px"></td>
-                            <td><img src="pringles.jpg" width="250px" height="150px"></td>
-                            <td><img src="cheese ball.webp" width="250px" height="150px"></td>
+                            <td><img src="Pictures/Kurkure.webp" alt="Banana" width="250px" height="150px"></td>
+                            <td><img src="Pictures/alooz.jpeg" width="250px" height="150px"></td>
+                            <td><img src="Pictures/pringles.jpg" width="250px" height="150px"></td>
+                            <td><img src="Pictures/cheese ball.webp" width="250px" height="150px"></td>
                         </tr>
                         <tr>
                             <td align="center">Kurkure Chips</td>

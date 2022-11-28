@@ -21,7 +21,7 @@
                 
             <center><h1>Sales details</h1></center>
             
-            <form method="post" action="AdminSalescheck.php">    
+            <form method="post" action="controller/AdminSalescheck.php">    
                 <table border="1" align="center" width="50%">
                     <tr>
                         <th>Sl</th>

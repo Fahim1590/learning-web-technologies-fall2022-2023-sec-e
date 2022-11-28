@@ -7,10 +7,10 @@
         <fieldset>
             
         <div align="left">
-            <img src="AsianMART.png" width="80px" height="60px">
+            <img src="Pictures/AsianMART.png" width="80px" height="60px">
         </div>
 		   <h1 align="center">Login</h1>
-		    <form method="post" action="AdminLogincheck.php" >
+		    <form method="post" action="controller/AdminLogincheck.php" >
 				 
 				<table border="0" align='center'>
 

@@ -11,7 +11,7 @@
             </div>
 
             <div align="left">
-                <img src="AsianMART.png" width="80px" height="60px">
+                <img src="Pictures/AsianMART.png" width="80px" height="60px">
             </div>
                 
             <center><h1>Salesman Details</h1></center>
