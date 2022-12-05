@@ -6,7 +6,7 @@
     $role= $_POST['role'];
     
     if($username == "" || $password == "" || $role == "") {
-        header('location: Adminlogin.php?err=null');
+        header('location: ../View/Adminlogin.php?err=null');
     }
     elseif($role == "admin"){
         $file = fopen('admin.txt', "r");
@@ -15,11 +15,11 @@
             $admin = explode("|", $data);
             if($admin[0] == $username && $admin[1] == $password){
                 setcookie('status', 'true', time()+3600, '/');
-                header('location:AdminHome.php');
+                header('location:../View/AdminHome.php');
             }
             elseif($admin[0] == $username && $admin[1] != $password || $admin[0] != $username && $admin[1] == $password){
 
-                header('location: Adminlogin.php?err=invalid_request');
+                header('location: ../View/Adminlogin.php?err=invalid_request');
             }
             // elseif($admin[0] != $username && $admin[1] == $password){
 
@@ -36,11 +36,11 @@
             $seller = explode("|", $data);
             if($seller[0] == $username && $seller[1] == $password){
                 setcookie('status', 'true', time()+3600, '/');
-                header('location:SellerHome.php');
+                header('location:../View/SellerHome.php');
             }
             elseif($seller[0] == $username && $seller[1] != $password || $seller[0] != $username && $seller[1] == $password){
 
-                header('location: Adminlogin.php?err=invalid_request');
+                header('location: ../View/Adminlogin.php?err=invalid_request');
             }
             // elseif($seller[0] != $username && $seller[1] == $password){
 
@@ -55,11 +55,11 @@
             $customer = explode("|", $data);
             if($customer[0] == $username && $customer[1] == $password){
                 setcookie('status', 'true', time()+3600, '/');
-                header('location:CustomerHome.php');
+                header('location:../View/CustomerHome.php');
             }
             elseif($customer[0] == $username && $customer[1] != $password || $customer[0] != $username && $customer[1] == $password){
 
-                header('location: Adminlogin.php?err=invalid_request');
+                header('location: ../View/Adminlogin.php?err=invalid_request');
             }
             // elseif($customer[0] != $username && $customer[1] == $password){
 

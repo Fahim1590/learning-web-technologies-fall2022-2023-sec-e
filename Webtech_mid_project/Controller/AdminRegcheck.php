@@ -12,7 +12,7 @@
     
     
     if($username == "" || $password == "" || $role =="" || $email == "" || $DOB == "" || $mobile_no== "" || $gender == "" || $img == "") {
-        header('location:AdminReg.php?err=null');
+        header('location:../View/AdminReg.php?err=null');
     }
     elseif($role == "seller"){
         $seller = ['username'=> $username, 'password'=>$password, 'role'=>$role, 'email'=>$email, 'DOB'=>$DOB,'mobile_no'=>$mobile_no, 'gender'=>$gender, 'img'=>$img];
@@ -21,7 +21,7 @@
         $file = fopen('salesman.txt', 'a');
         fwrite($file, $seller);
         fclose($file);
-        header('location:Adminlogin.php');
+        header('location:../View/Adminlogin.php');
     }
     elseif($role == "admin"){
         $admin = ['username'=> $username, 'password'=>$password, 'role' => $role, 'email'=>$email, 'DOB'=>$DOB,'mobile_no'=>$mobile_no, 'gender'=>$gender, 'img'=>$img];
@@ -30,7 +30,7 @@
         $file = fopen('admin.txt', 'a');
         fwrite($file, $admin);
         fclose($file);
-        header('location:Adminlogin.php');
+        header('location:../View/Adminlogin.php');
     }
     elseif($role == "customer"){
         $customer = ['username'=> $username, 'password'=>$password, 'role' => $role, 'email'=>$email, 'DOB'=>$DOB,'mobile_no'=>$mobile_no, 'gender'=>$gender, 'img'=>$img];
@@ -39,7 +39,7 @@
         $file = fopen('user.txt', 'a');
         fwrite($file, $customer);
         fclose($file);
-        header('location:Adminlogin.php');
+        header('location:../View/Adminlogin.php');
     }
     // else{
     //     $user_data = ['username'=> $username, 'password'=>$password, 'email'=>$email, 'DOB'=>$DOB,'mobile_no'=>$mobile_no, 'gender'=>$gender, 'img'=>$img];

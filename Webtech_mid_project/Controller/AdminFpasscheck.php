@@ -6,7 +6,7 @@
     $password = $_POST['password'];
     
     if($username == "" || $password == "" || $email == "" || $role =="" ) {
-        header('location:AdminFpass.php?err=null');
+        header('location:../View/AdminFpass.php?err=null');
     }
     elseif($role == "admin"){
         $file = fopen('admin.txt', "r");
@@ -20,7 +20,7 @@
                 $file = fopen('admin.txt', 'a');
                 fwrite($file, $admin);
                 fclose($file);
-                header('location:Adminlogin.php');}
+                header('location:../View/Adminlogin.php');}
             elseif($admin[0] == $username && $admin[3] != $email || $admin[0] != $username && $admin[3] == $email ){
 
                 header('location:AdminFpass.php?err=invalid_request');
@@ -43,14 +43,14 @@
                 $file = fopen('salesman.txt', 'a');
                 fwrite($file, $seller);
                 fclose($file);
-                header('location:Adminlogin.php');}
+                header('location:../View/Adminlogin.php');}
             elseif($seller[0] == $username && $seller[3] != $email){
 
-                header('location:AdminFpass.php?err=invalid_request');
+                header('location:../View/AdminFpass.php?err=invalid_request');
             }
             elseif($seller[0] != $username && $seller[3] == $email){
 
-                header('location:AdminFpass.php?err=invalid_request');
+                header('location:../View/AdminFpass.php?err=invalid_request');
             }
         }
     }
@@ -66,14 +66,14 @@
                 $file = fopen('user.txt', 'a');
                 fwrite($file, $customer);
                 fclose($file);
-                header('location:Adminlogin.php');}
+                header('location:../View/Adminlogin.php');}
             elseif($customer[0] == $username && $customer[3] != $email){
 
-                header('location:AdminFpass.php?err=invalid_request');
+                header('location:../View/AdminFpass.php?err=invalid_request');
             }
             elseif($customer[0] != $username && $customer[3] == $email){
 
-                header('location:AdminFpass.php?err=invalid_request');
+                header('location:../View/AdminFpass.php?err=invalid_request');
             }
         }
     }

@@ -12,7 +12,7 @@
         </div>
 		   <h1 align="center">Registration</h1>
 		    
-           <form action="controller/AdminFpasscheck.php" method="post">
+           <form action="../Controller/AdminFpasscheck.php" method="post">
                 
                     
                 <table border="0" align='center'>

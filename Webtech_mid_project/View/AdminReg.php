@@ -12,7 +12,7 @@
             <img src="Pictures/AsianMART.png" width="80px" height="60px">
         </div>
 		   <h1 align="center">Registration</h1>
-		    <form action="Controller/AdminRegcheck.php" method="post">
+		    <form action="../Controller/AdminRegcheck.php" method="post">
                 
                     <!-- <tr>
                         <td></td>
